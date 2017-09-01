@@ -11,4 +11,6 @@
     <string name="donar">Donate</string>
     <string name="hospedaje">Lodging</string>
     <string name="descubir">Discover</string>
+    <string name="action_more">More</string>
+    <string name="action_comentarios">recommendations</string>
 </resources>
