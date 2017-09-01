@@ -5,4 +5,10 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="acerca">About</string>
+    <string name="ciudades">Cities</string>
+    <string name="Viajes">Travels</string>
+    <string name="comida">Food</string>
+    <string name="donar">Donate</string>
+    <string name="hospedaje">Lodging</string>
+    <string name="descubir">Discover</string>
 </resources>
