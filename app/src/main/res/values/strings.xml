@@ -13,4 +13,5 @@
     <string name="descubir">Discover</string>
     <string name="action_more">More</string>
     <string name="action_comentarios">recommendations</string>
+    <string name="title_activity_discover">DiscoverActivity</string>
 </resources>
