@@ -2,6 +2,7 @@
 <resources>
     <color name="colorPrimary">#00D3BB</color>
     <color name="colorPrimaryDark">#01AD99</color>
-    <color name="colorAccent">#00E4CA</color>
+    <color name="colorAccent">#00e4ca</color>
     <color name="bag">#E7E7E7</color>
+    <color name="leer_mas">#ff4081</color>
 </resources>

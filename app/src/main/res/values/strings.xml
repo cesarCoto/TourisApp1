@@ -4,6 +4,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+<!--Actividades-->
     <string name="acerca">About</string>
     <string name="ciudades">Cities</string>
     <string name="Viajes">Travels</string>
@@ -16,4 +17,18 @@
     <string name="title_activity_discover">DiscoverActivity</string>
     <string name="escula">CETis #82</string>
     <string name="Log_name">TourisApp logo</string>
+
+    <!--Ciudades-->
+    <string name="discover_campeche">Ciudad San Francisco de Campeche</string>
+    <string name="discover_calackmul">Calakmul</string>
+    <string name="zona_arqueologica_Edzna">La zona arqueológica de Edzná</string>
+    <string name="discover_ciudad_del_carmen">Ciudad del Carmen</string>
+    <string name="discover_los_petenes">Los Petenes</string>
+    <string name="discover_zona_arqueologica_becan">Zona Arqueológica de Becán</string>
+    <string name="discover_pueblo_magico">Pueblo Mágico de Palizada</string>
+    <string name="discover_cenote">Cenote San Miguel Colorado</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_read_more">Read more</string>
+
+
 </resources>
