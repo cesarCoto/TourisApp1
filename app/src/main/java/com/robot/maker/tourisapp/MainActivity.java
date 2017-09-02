@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_about) {
-            Intent i = new Intent(MainActivity.this,aboutActivity.class);
+            Intent i = new Intent(this,aboutActivity.class);
             startActivity(i);
             return true;
         }
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_discover) {
             //actividad descubrir
-            Intent i = new Intent(MainActivity.this, DiscoverActivity.class);
+            Intent i = new Intent(this, DiscoverActivity.class);
             startActivity(i);
 
         } else if (id == R.id.nav_share) {
