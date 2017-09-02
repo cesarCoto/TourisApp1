@@ -14,4 +14,6 @@
     <string name="action_more">More</string>
     <string name="action_comentarios">recommendations</string>
     <string name="title_activity_discover">DiscoverActivity</string>
+    <string name="escula">CETis #82</string>
+    <string name="Log_name">TourisApp logo</string>
 </resources>
