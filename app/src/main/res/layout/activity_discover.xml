@@ -11,25 +11,44 @@
     tools:context="com.robot.maker.tourisapp.DiscoverActivity">
 
 
-    <Spinner
-        android:id="@+id/spinner_discover_ciudades"
+    <HorizontalScrollView
+        android:id="@+id/nav_discover"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true" />
-    <Button
-        android:id="@+id/bnt_discover_buscar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/btn_buscar"
-        android:layout_below="@+id/spinner_discover_ciudades"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner_discover_ciudades"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true" />
+
+            <Button
+                android:id="@+id/bnt_discover_buscar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinner_discover_ciudades"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="right"
+                android:layout_marginTop="16dp"
+                android:background="@color/cardview_shadow_end_color"
+                android:text="@string/btn_buscar"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+    </HorizontalScrollView>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/bnt_discover_buscar"
-        android:layout_marginTop="16dp"
+        android:layout_below="@id/nav_discover"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 

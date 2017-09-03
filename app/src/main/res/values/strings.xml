@@ -33,18 +33,18 @@
     <string name="btn_gastronomy">gastronomy</string>
     <string name="btn_instructions">Instructions</string>
     <string name="btn_hotels">Hotels</string>
+    <string name="btn_weather">weather</string>
 
     <!--ciudades-->
     <string name="campeche">San Francisco de Campeche</string>
     <string name="carmen">Ciudad del Carmen</string>
 
 
-
-
     <!--campeche-->
     <string name="historia1_campeche">The city of Campeche is a magical segment of history in itself. In its beautiful streets and alleys you can still feel the presence of Spanish conquerors, pirate invaders and civil strife of the nineteenth century.</string>
     <string name="historia2_campeche">Its imposing ramparts, walls and forts remind us that this city was once inhabited by heroes who defended it at all costs, the constant attacks of pirates from France, England and Holland.</string>
     <string name="historia3_campeche">And there is no better way to learn about this whole history than visiting the Cultural Center El Palacio, with a first-level museography which employs state-of-the-art technology to illustrate in detail all the events of piracy, commerce and the different struggles that faced Campeche.</string>
+
 
     <!--Carme-->
 

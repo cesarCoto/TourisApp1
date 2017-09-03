@@ -53,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/cardview_shadow_end_color"
-                android:text="weather "
+                android:text="@string/btn_weather"
                 android:textColor="@color/colorPrimaryDark" />
         </LinearLayout>
     </HorizontalScrollView>
