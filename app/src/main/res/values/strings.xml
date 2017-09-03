@@ -4,7 +4,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-<!--Actividades-->
+    <!--Actividades-->
     <string name="acerca">About</string>
     <string name="ciudades">Cities</string>
     <string name="Viajes">Travels</string>
@@ -18,8 +18,9 @@
     <string name="escula">CETis #82</string>
     <string name="Log_name">TourisApp logo</string>
 
-    <!--Ciudades-->
-    <string name="discover_campeche">Ciudad San Francisco de Campeche</string>
+    <!--Lugares-->
+    <string name="todo">View all the cyties</string>
+    <string name="discover_campeche">San Francisco de Campeche city</string>
     <string name="discover_calackmul">Calakmul</string>
     <string name="zona_arqueologica_Edzna">La zona arqueológica de Edzná</string>
     <string name="discover_ciudad_del_carmen">Ciudad del Carmen</string>
@@ -29,6 +30,22 @@
     <string name="discover_cenote">Cenote San Miguel Colorado</string>
     <string name="btn_buscar">Buscar</string>
     <string name="btn_read_more">Read more</string>
+    <string name="btn_gastronomy">gastronomy</string>
+    <string name="btn_instructions">Instructions</string>
+    <string name="btn_hotels">Hotels</string>
 
+    <!--ciudades-->
+    <string name="campeche">San Francisco de Campeche</string>
+    <string name="carmen">Ciudad del Carmen</string>
+
+
+
+
+    <!--campeche-->
+    <string name="historia1_campeche">The city of Campeche is a magical segment of history in itself. In its beautiful streets and alleys you can still feel the presence of Spanish conquerors, pirate invaders and civil strife of the nineteenth century.</string>
+    <string name="historia2_campeche">Its imposing ramparts, walls and forts remind us that this city was once inhabited by heroes who defended it at all costs, the constant attacks of pirates from France, England and Holland.</string>
+    <string name="historia3_campeche">And there is no better way to learn about this whole history than visiting the Cultural Center El Palacio, with a first-level museography which employs state-of-the-art technology to illustrate in detail all the events of piracy, commerce and the different struggles that faced Campeche.</string>
+
+    <!--Carme-->
 
 </resources>

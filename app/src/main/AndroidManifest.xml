@@ -29,14 +29,23 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".DiscoverActivity"
+        <activity
+            android:name=".DiscoverActivity"
             android:label="@string/descubir"
-            android:screenOrientation="portrait"
             android:parentActivityName=".MainActivity"
-            >
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+        android:name=".CampecheActivity"
+        android:label="@string/campeche"
+        android:parentActivityName=".DiscoverActivity"
+        android:screenOrientation="portrait">
+            <meta-data
+               android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DiscoverActivity"
                 />
         </activity>
     </application>
