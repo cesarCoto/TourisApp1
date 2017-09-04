@@ -1,6 +1,7 @@
 package com.robot.maker.tourisapp;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -20,7 +21,7 @@ public class CampecheActivity extends AppCompatActivity {
     ImageView img_info_cam;
 
 
-    Button btn_instructions,btn_gastro,btn_hotel,btn_weather,btn_historia,btn_piratas,btn_all_cam;
+    Button btn_instructions,btn_gastro,btn_hotel,btn_weather,btn_historia,btn_piratas,btn_all_cam,btn_como_llegar;
     ToggleButton tgbtn_more_history,tgbtn_more_info;
 
     //partes del Activity
@@ -35,6 +36,18 @@ public class CampecheActivity extends AppCompatActivity {
         setContentView(R.layout.activity_campeche);
 
 
+
+        //maps
+        btn_como_llegar = (Button) findViewById(R.id.btn_cam_como_llegar);
+        btn_como_llegar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse("geo:19.834110, -90.534843"));
+                Intent chooser = Intent.createChooser(i,"Launch Maps");
+                startActivity(chooser);
+            }
+        });
 
         //cards
         card_historia_campeche = (CardView) findViewById(R.id.card_historia_campeche);

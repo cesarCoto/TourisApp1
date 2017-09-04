@@ -2,6 +2,7 @@ package com.robot.maker.tourisapp;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -118,8 +119,7 @@ public class MainActivity extends AppCompatActivity
             //actividad descubrir
             Intent i = new Intent(this, DiscoverActivity.class);
             startActivity(i);
-        } else if (id == R.id.nav_share) {
-
+        }else if (id == R.id.nav_share) {
 
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
