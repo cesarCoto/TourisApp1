@@ -40,14 +40,14 @@
                 android:text="@string/history_btn"
                 android:textColor="@color/colorPrimaryDark" />
 
-            <Button
+           <!-- <Button
                 android:id="@+id/btn_cam_piratas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/cardview_shadow_end_color"
                 android:backgroundTint="@color/cardview_shadow_end_color"
                 android:text="@string/btn_pirates"
-                android:textColor="@color/colorPrimaryDark" />
+                android:textColor="@color/colorPrimaryDark" />-->
 
             <Button
                 android:id="@+id/btn_cam_como_llegar"

@@ -63,16 +63,24 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".DiscoverActivity" />
         </activity>
-        <activity android:name=".FichaActivity"
+        <activity
+            android:name=".FichaActivity"
             android:label="@string/info_activity"
-            android:screenOrientation="portrait"
             android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
             tools:targetApi="jelly_bean">
-
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"
-                />
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".FoodActivity"
+            android:label="@string/comida"
+            android:parentActivityName=".CampecheActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CampecheActivity" />
+
         </activity>
     </application>
 

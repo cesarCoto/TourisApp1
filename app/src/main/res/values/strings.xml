@@ -19,7 +19,7 @@
     <string name="Log_name">TourisApp logo</string>
 
     <!--Lugares-->
-    <string name="todo">View all the cyties</string>
+    <string name="todo">View all</string>
     <string name="discover_campeche">San Francisco de Campeche city</string>
     <string name="discover_calackmul">Calakmul</string>
     <string name="zona_arqueologica_Edzna">La zona arqueológica de Edzná</string>
@@ -37,7 +37,7 @@
     <string name="tv_welcome">Welcome</string>
     <string name="btn_no_ver">I do not want to see this</string>
     <string name="history_btn">History</string>
-    <string name="info_activity">information</string>
+    <string name="info_activity">Information</string>
     <string name="btn_more">More</string>
     <string name="btn_less">Less</string>
     <string name="btn_pirates">Pirates</string>
@@ -60,6 +60,11 @@
     <string name="historia4_campeche">The history of San Francisco de Campeche is the succession of events that led to the development of the present city of San Francisco de Campeche, Campeche, Mexico. From its beginnings like a Mayan village, until the construction of walls and bastions to defend of the pirates and its present position of capital of the state of Campeche, becoming Cultural Patrimony of the Humanity by its historical and cultural diversity in 1999.</string>
     <string name="historia5_campeche">Although the city was not founded until the conquest of Mexico by the Spanish, the Maya occupied the region from 900 AD. C.1 The area comprising the present city of San Francisco de Campeche was under the control of Edzná, an ancient city located 61 km southwest of the present city, built by a village of Chontal origin, the Maya itzáes the same that built Chichen -Izá. Edzná reached its splendor towards the year 1000 d. C.</string>
     <string name="historia6_campeche">The first settlers of the territory that today occupies the city were probably engaged in agriculture, fishing and commerce, as mentioned in the welcome made to Bernal Diaz del Castillo during the discovery of Yucatan in 1517. Can Pech, the name of the population at that time, located in the jurisdiction of the same name, had about 15,000 inhabitants and with 3,000 houses made of mud walls and thatched roofs, similar to the current rural houses.</string>
+    <string name="la_casa_de_los_murmullos">La Casa de los Murmullos</string>
+    <string name="la_casa_de_los_murmullos_reseña">This place is a house of the seventeenth century that is transformed into a luxurious private restaurant to which you can only come with a reservation. It is located in one of the old quarters of Campeche and is the private residence of the French chef Patrick Cros. For nine years, when the chef arrived in Mexico, he fell in love with Campeche and the property. Here you can find some French dishes fused with Mexican inspiration and local ingredients, and you will also find a very original reinterpretation of Campechian food.</string>
+    <string name="go_btn">Go</string>
+    <string name="marganzo_res">Marganzo</string>
+    <string name="marganzo_res_info">It is one of the most famous and most prestigious restaurants in Campeche. In this place you will be able to taste all the specialties of the traditional kitchen, mainly fish and seafood. To this is added the festive atmosphere of music and an excellent location in the heart of the Historic Center of the Campechana capital. Marganzo has achieved a harmonious communion between the exotic pre-Hispanic dishes and the refined international cuisine.</string>
 
 
     <!--Carme-->

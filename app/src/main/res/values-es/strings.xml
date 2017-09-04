@@ -6,22 +6,21 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <!--Actividades-->
-    <string name="acerca">About</string>
-    <string name="ciudades">Cities</string>
-    <string name="Viajes">Travels</string>
-    <string name="comida">Food</string>
-    <string name="donar">Donate</string>
-    <string name="hospedaje">Lodging</string>
-    <string name="descubir">Discover</string>
-    <string name="action_more">More</string>
-    <string name="action_comentarios">recommendations</string>
+    <string name="acerca">Acerca de</string>
+    <string name="ciudades">Ciudades</string>
+    <string name="Viajes">Viajes</string>
+    <string name="comida">Comida</string>
+    <string name="donar">Donar</string>
+    <string name="descubir">Descubrir</string>
+    <string name="action_more">Más</string>
+    <string name="action_comentarios">Recomendaciones</string>
     <string name="title_activity_discover">DiscoverActivity</string>
     <string name="escula">CETis #82</string>
     <string name="Log_name">TourisApp logo</string>
 
     <!--Lugares-->
-    <string name="todo">View all the cyties</string>
-    <string name="discover_campeche">San Francisco de Campeche city</string>
+    <string name="todo">Ver todo</string>
+    <string name="discover_campeche">Ciudad San Francisco de Campeche</string>
     <string name="discover_calackmul">Calakmul</string>
     <string name="zona_arqueologica_Edzna">La zona arqueológica de Edzná</string>
     <string name="discover_ciudad_del_carmen">Ciudad del Carmen</string>
@@ -29,25 +28,22 @@
     <string name="discover_zona_arqueologica_becan">Zona Arqueológica de Becán</string>
     <string name="discover_pueblo_magico">Pueblo Mágico de Palizada</string>
     <string name="discover_cenote">Cenote San Miguel Colorado</string>
-    <string name="btn_buscar">Search</string>
-    <string name="btn_read_more">Read more</string>
-    <string name="btn_gastronomy">Gastronomy</string>
-    <string name="btn_instructions">Instructions</string>
-    <string name="btn_hotels">Hotels</string>
-    <string name="btn_weather">Weather</string>
-    <string name="tv_welcome">Welcome</string>
-    <string name="btn_no_ver">I do not want to see this</string>
-    <string name="history_btn">History</string>
-    <string name="info_activity">information</string>
-    <string name="btn_more">More</string>
-    <string name="btn_less">Less</string>
-    <string name="btn_pirates">Pirates</string>
-    <string name="btn_show_all">Show all</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_read_more">Leer mas</string>
+    <string name="btn_hotels">Hoteles</string>
+    <string name="btn_weather">Clima</string>
+    <string name="tv_welcome">Bienvenido</string>
+    <string name="btn_no_ver">No quiero ver esto</string>
+    <string name="history_btn">Historia</string>
+    <string name="info_activity">Información</string>
+    <string name="btn_more">Más</string>
+    <string name="btn_less">Menos</string>
+    <string name="btn_pirates">Piratas</string>
+    <string name="btn_show_all">Mostrar todo</string>
 
     <!--Welcome-->
-    <string name="introduccion_a_la_app">Welcome to TOURISAPP this application was developed by the student team InovaSix students of CETis 82. This application is still in development so we hope it is to your liking.</string>
-    <string name="caracteriscas">Characteristics</string>
-    <string name="caracteriscas_1">With TourisApp you will have access to free tourist areas and recreational areas, hotel areas, restaurants, shopping areas, cultural areas (churches, museums, historical centers).</string>
+    <string name="introduccion_a_la_app">Bienvenidos a TOURISAPP esta aplicación fue desarrollada por el equipo de estudiantes InovaSix estudiantes del CETis 82. Esta aplicación aun esta en desarrollo así que  esperamos que sea de tu agrado.</string>
+    <string name="caracteriscas_1">Con TourisApp tendrás acceso De manera gratuita a zonas turísticas y con fines recreativos, zonas hoteleras, restaurantes, zonas de comercio, zonas culturales (iglesias, museos, centros históricos).</string>
 
     <!--ciudades-->
     <string name="campeche">San Francisco de Campeche</string>
@@ -55,12 +51,16 @@
 
 
     <!--campeche-->
-    <string name="historia1_campeche">The city of Campeche is a magical segment of history in itself. In its beautiful streets and alleys you can still feel the presence of Spanish conquerors, pirate invaders and civil strife of the nineteenth century.</string>
-    <string name="historia2_campeche">Its imposing ramparts, walls and forts remind us that this city was once inhabited by heroes who defended it at all costs, the constant attacks of pirates from France, England and Holland.</string>
-    <string name="historia3_campeche">And there is no better way to learn about this whole history than visiting the Cultural Center El Palacio, with a first-level museography which employs state-of-the-art technology to illustrate in detail all the events of piracy, commerce and the different struggles that faced Campeche.</string>
-    <string name="historia4_campeche">The history of San Francisco de Campeche is the succession of events that led to the development of the present city of San Francisco de Campeche, Campeche, Mexico. From its beginnings like a Mayan village, until the construction of walls and bastions to defend of the pirates and its present position of capital of the state of Campeche, becoming Cultural Patrimony of the Humanity by its historical and cultural diversity in 1999.</string>
-    <string name="historia5_campeche">Although the city was not founded until the conquest of Mexico by the Spanish, the Maya occupied the region from 900 AD. C.1 The area comprising the present city of San Francisco de Campeche was under the control of Edzná, an ancient city located 61 km southwest of the present city, built by a village of Chontal origin, the Maya itzáes the same that built Chichen -Izá. Edzná reached its splendor towards the year 1000 d. C.</string>
-    <string name="historia6_campeche">The first settlers of the territory that today occupies the city were probably engaged in agriculture, fishing and commerce, as mentioned in the welcome made to Bernal Diaz del Castillo during the discovery of Yucatan in 1517. Can Pech, the name of the population at that time, located in the jurisdiction of the same name, had about 15,000 inhabitants and with 3,000 houses made of mud walls and thatched roofs, similar to the current rural houses.</string>
+    <string name="historia1_campeche">La ciudad de Campeche es un mágico segmento de historia en sí misma. En sus hermosas calles y callejones se puede sentir aún la presencia de los conquistadores españoles, de los invasores piratas y de las luchas civiles del siglo XIX.</string>
+    <string name="historia2_campeche">Sus imponentes baluartes, murallas y fuertes nos recuerdan que esta ciudad fue una vez habitada por héroes que la defendieron a toda costa, de los constantes ataques de piratas provenientes de Francia, Inglaterra y Holanda.</string>
+    <string name="historia3_campeche">Y no hay mejor forma de aprender acerca de toda esta vasta historia que visitando el Centro Cultural El Palacio, con una museografía de primer nivel la cual emplea tecnología de punta para ilustrar de manera detallada todos los acontecimientos de piratería, comercio y las diferentes luchas que enfrentó Campeche.</string>
+    <string name="historia4_campeche">La historia de San Francisco de Campeche es la sucesión de acontecimientos que conllevaron al desarrollo de la actual ciudad de San Francisco de Campeche, Campeche, México. Llevada desde sus comienzos como una aldea maya, hasta la construcción de murallas y baluartes para defenderse de los piratas y su actual posición de capital del estado de Campeche, convirtiéndose en Patrimonio Cultural de la Humanidad por su diversidad histórica y cultural en 1999.</string>
+    <string name="historia6_campeche">Los primeros pobladores del territorio que ocupa hoy la ciudad se dedicaban probablemente a la agricultura, la pesca y el comercio, como se menciona en el recibimiento hecho a Bernal Díaz del Castillo durante el descubrimiento de Yucatán en 1517. Can Pech, el nombre de la población en esa época, ubicada en la jurisdicción del mismo nombre, contaba con alrededor de 15,000 habitantes y con 3,000 viviendas hechas de paredes de barro y techos de paja, similares a las actuales casas rurales.</string>
+    <string name="btn_gastronomy">"Gastronomía "</string>
+    <string name="btn_instructions">"Instrucciones "</string>
+    <string name="caracteriscas">"Características "</string>
+    <string name="historia5_campeche">Aunque la ciudad no fue fundada sino hasta la conquista de México por los españoles, los mayas ocuparon la región desde el 900 d. C.1 La zona que comprende la actual ciudad de San Francisco de Campeche estuvo bajo el dominio de Edzná, antigua ciudad ubicada 61 km al suroeste de la actual ciudad, construida por un pueblo de origen chontal, los mayas itzáes los mismos que edificaron Chichén-Itzá. Edzná alcanzó su esplendor hacia el año 1000 d. C.</string>
+    <string name="hospedaje">Hospedaje</string>
 
 
     <!--Carme-->

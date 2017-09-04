@@ -23,7 +23,7 @@
     <item android:title="@string/action_more">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_donate"
                 android:icon="@drawable/ic_add_shopping_cart_black_24dp"
                 android:title="@string/donar"/>
 

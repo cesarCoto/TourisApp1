@@ -82,7 +82,7 @@ public class CampecheActivity extends AppCompatActivity {
         });
 
         //piratas
-        btn_piratas = (Button) findViewById(R.id.btn_cam_piratas);
+        //btn_piratas = (Button) findViewById(R.id.btn_cam_piratas);
 
 
         //Clima
