@@ -56,11 +56,16 @@
     <string name="historia3_campeche">Y no hay mejor forma de aprender acerca de toda esta vasta historia que visitando el Centro Cultural El Palacio, con una museografía de primer nivel la cual emplea tecnología de punta para ilustrar de manera detallada todos los acontecimientos de piratería, comercio y las diferentes luchas que enfrentó Campeche.</string>
     <string name="historia4_campeche">La historia de San Francisco de Campeche es la sucesión de acontecimientos que conllevaron al desarrollo de la actual ciudad de San Francisco de Campeche, Campeche, México. Llevada desde sus comienzos como una aldea maya, hasta la construcción de murallas y baluartes para defenderse de los piratas y su actual posición de capital del estado de Campeche, convirtiéndose en Patrimonio Cultural de la Humanidad por su diversidad histórica y cultural en 1999.</string>
     <string name="historia6_campeche">Los primeros pobladores del territorio que ocupa hoy la ciudad se dedicaban probablemente a la agricultura, la pesca y el comercio, como se menciona en el recibimiento hecho a Bernal Díaz del Castillo durante el descubrimiento de Yucatán en 1517. Can Pech, el nombre de la población en esa época, ubicada en la jurisdicción del mismo nombre, contaba con alrededor de 15,000 habitantes y con 3,000 viviendas hechas de paredes de barro y techos de paja, similares a las actuales casas rurales.</string>
-    <string name="btn_gastronomy">"Gastronomía "</string>
-    <string name="btn_instructions">"Instrucciones "</string>
-    <string name="caracteriscas">"Características "</string>
+    <string name="btn_gastronomy">Gastronomía</string>
+    <string name="btn_instructions">Instrucciones</string>
+    <string name="caracteriscas">Características</string>
     <string name="historia5_campeche">Aunque la ciudad no fue fundada sino hasta la conquista de México por los españoles, los mayas ocuparon la región desde el 900 d. C.1 La zona que comprende la actual ciudad de San Francisco de Campeche estuvo bajo el dominio de Edzná, antigua ciudad ubicada 61 km al suroeste de la actual ciudad, construida por un pueblo de origen chontal, los mayas itzáes los mismos que edificaron Chichén-Itzá. Edzná alcanzó su esplendor hacia el año 1000 d. C.</string>
     <string name="hospedaje">Hospedaje</string>
+    <string name="go_btn">Ir</string>
+    <string name="la_casa_de_los_murmullos">La Casa de los Murmullos</string>
+    <string name="la_casa_de_los_murmullos_reseña">"Este lugar es una casona del siglo XVII que se transforma en un lujoso restaurante privado al que solo puedes acudir con una reservación. Está ubicada en uno de los barrios antiguos de Campeche y es la residencia particular del chef francés Patrick Cros. Desde hace nueve años, cuando el chef llegó a México, se enamoró de Campeche y de la propiedad. Aquí se sirven algunos platillos franceses fusionados con la inspiración mexicana y los ingredientes locales, y también podrás encontrar una reinterpretación muy original de la comida campechana. "</string>
+    <string name="marganzo_res">Marganzo</string>
+    <string name="marganzo_res_info">Es uno de los restaurantes más famosos y con mayor prestigio en Campeche. En este lugar podrás probar todas las especialidades de la cocina tradicional campechana, principalmente pescados y mariscos. A esto se suma el ambiente festivo de música y una excelente ubicación en el corazón del Centro Histórico de la capital campechana. Marganzo ha logrado una armoniosa comunión entre los exóticos platillos prehispánicos y la refinada cocina internacional.</string>
 
 
     <!--Carme-->

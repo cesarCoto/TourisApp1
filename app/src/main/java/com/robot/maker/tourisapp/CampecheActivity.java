@@ -21,7 +21,7 @@ public class CampecheActivity extends AppCompatActivity {
     ImageView img_info_cam;
 
 
-    Button btn_instructions,btn_gastro,btn_hotel,btn_weather,btn_historia,btn_piratas,btn_all_cam,btn_como_llegar;
+    Button btn_instructions,btn_comida,btn_hotel,btn_weather,btn_historia,btn_all_cam,btn_como_llegar;
     ToggleButton tgbtn_more_history,tgbtn_more_info;
 
     //partes del Activity
@@ -53,15 +53,26 @@ public class CampecheActivity extends AppCompatActivity {
         card_historia_campeche = (CardView) findViewById(R.id.card_historia_campeche);
         card_introduccion_campeche = (CardView) findViewById(R.id.card_introduccion_campeche);
 
-        //como llegar
-        btn_instructions = (Button) findViewById(R.id.btn_cam_como_llegar);
-
 
         //gastronomia
-        btn_gastro = (Button) findViewById(R.id.btn_campeche_gastronomia);
+        btn_comida = (Button) findViewById(R.id.btn_campeche_gas);
+        btn_comida.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent gas = new Intent(CampecheActivity.this,comidaActivity.class);
+                startActivity(gas);
+            }
+        });
 
         //Hoteles
         btn_hotel = (Button) findViewById(R.id.btn_cam_hoteles);
+        btn_hotel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent comida_activity = new Intent(CampecheActivity.this, comidaActivity.class);
+                startActivity(comida_activity);
+            }
+        });
 
         //historia
         btn_historia = (Button) findViewById(R.id.btn_historia_cam);

@@ -73,14 +73,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".FoodActivity"
+        <activity android:name=".comidaActivity"
             android:label="@string/comida"
+            android:screenOrientation="portrait"
             android:parentActivityName=".CampecheActivity"
-            android:screenOrientation="portrait">
+            >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".CampecheActivity" />
-
+                android:value=".MainActivity" />
         </activity>
     </application>
 

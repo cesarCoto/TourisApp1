@@ -60,14 +60,14 @@
                 android:textColor="@color/colorPrimaryDark" />
 
             <Button
-                android:id="@+id/btn_campeche_gastronomia"
+                android:id="@+id/btn_campeche_gas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/cardview_shadow_end_color"
                 android:backgroundTint="@color/cardview_shadow_end_color"
                 android:padding="10dp"
                 android:text="@string/btn_gastronomy"
-                android:textColor="@color/colorPrimaryDark" />
+                android:textColor="@color/colorPrimaryDark"/>
 
             <Button
                 android:id="@+id/btn_cam_hoteles"

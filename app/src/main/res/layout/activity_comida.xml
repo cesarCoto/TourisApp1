@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingRight="16dp"
     android:paddingLeft="16dp"
+    android:paddingRight="16dp"
     android:background="@color/bag"
-    tools:context="com.robot.maker.tourisapp.FoodActivity">
+    tools:context="com.robot.maker.tourisapp.comidaActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -19,15 +19,10 @@
             android:orientation="vertical" >
 
             <android.support.v7.widget.CardView
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:cardUseCompatPadding="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -37,26 +32,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/la_casa_de_los_murmullos"
+                            android:padding="10dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
 
                         <TextView
                             android:id="@+id/textView12"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:padding="10dp"
-                            android:text="@string/la_casa_de_los_murmullos"
-                            android:textAlignment="center"
-                            android:textAppearance="?android:attr/textAppearanceLarge" />
-
-                        <TextView
-                            android:id="@+id/textView13"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@id/textView12"
-                            android:padding="15dp"
-                            android:text="@string/la_casa_de_los_murmullos_reseña" />
+                            android:text="@string/la_casa_de_los_murmullos_reseña"
+                            android:padding="15dp"/>
 
                         <Button
-                            android:id="@+id/button_go"
+                            android:id="@+id/btn_restaurant_cam"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="right"
@@ -64,20 +58,14 @@
                             android:text="@string/go_btn"
                             android:textColor="@color/leer_mas" />
                     </LinearLayout>
-
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:cardUseCompatPadding="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"/>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -89,23 +77,23 @@
                         android:orientation="vertical">
 
                         <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/marganzo_res"
+                            android:padding="10dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+                        <TextView
                             android:id="@+id/textView14"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:padding="10dp"
-                            android:text="@string/marganzo_res"
-                            android:textAlignment="center"
-                            android:textAppearance="?android:attr/textAppearanceLarge" />
-
-                        <TextView
-                            android:id="@+id/textView15"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:padding="15dp"
-                            android:text="@string/marganzo_res_info" />
+                            android:text="@string/marganzo_res_info"
+                            android:padding="15dp"/>
 
                         <Button
-                            android:id="@+id/button_go1"
+                            android:id="@+id/btn_restaurant1_cam"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="right"
@@ -113,10 +101,10 @@
                             android:text="@string/go_btn"
                             android:textColor="@color/leer_mas" />
                     </LinearLayout>
-
                 </RelativeLayout>
             </android.support.v7.widget.CardView>
 
         </LinearLayout>
     </ScrollView>
+
 </RelativeLayout>

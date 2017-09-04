@@ -114,6 +114,8 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
+            Intent i = new Intent(MainActivity.this,comidaActivity.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_discover) {
             //actividad descubrir
