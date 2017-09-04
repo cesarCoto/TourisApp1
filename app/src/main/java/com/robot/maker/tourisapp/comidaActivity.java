@@ -40,7 +40,7 @@ public class comidaActivity extends AppCompatActivity {
             }
         });
 
-
+        //hola
         //Botton  ir atras
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDefaultDisplayHomeAsUpEnabled(true);
