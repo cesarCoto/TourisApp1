@@ -32,6 +32,16 @@
                 android:id="@+id/nav_comentarios"
                 android:title="@string/action_comentarios" />
 
+            <item
+
+                android:title="@string/acerca"
+                android:id="@+id/acerca_de"
+                android:icon="@drawable/ic_info_black_24dp"/>
+
+            <item
+                android:title="Negro"
+                android:id="@+id/negro"
+                />
         </menu>
     </item>
 

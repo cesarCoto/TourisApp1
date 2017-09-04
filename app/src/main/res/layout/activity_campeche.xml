@@ -18,13 +18,43 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btn_all_campeche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/cardview_shadow_end_color"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:text="@string/btn_show_all"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/btn_historia_cam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cardview_shadow_end_color"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:text="@string/history_btn"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/btn_cam_piratas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cardview_shadow_end_color"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:text="@string/btn_pirates"
+                android:textColor="@color/colorPrimaryDark" />
 
             <Button
                 android:id="@+id/btn_cam_como_llegar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/cardview_shadow_end_color"
+                android:backgroundTint="@color/cardview_shadow_end_color"
                 android:padding="10dp"
                 android:text="@string/btn_instructions"
                 android:textColor="@color/colorPrimaryDark" />
@@ -34,6 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/cardview_shadow_end_color"
+                android:backgroundTint="@color/cardview_shadow_end_color"
                 android:padding="10dp"
                 android:text="@string/btn_gastronomy"
                 android:textColor="@color/colorPrimaryDark" />
@@ -43,6 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/cardview_shadow_end_color"
+                android:backgroundTint="@color/cardview_shadow_end_color"
                 android:padding="10dp"
                 android:text="@string/btn_hotels"
                 android:textColor="@color/colorPrimaryDark" />
@@ -53,6 +85,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/cardview_shadow_end_color"
+                android:backgroundTint="@color/cardview_shadow_end_color"
                 android:text="@string/btn_weather"
                 android:textColor="@color/colorPrimaryDark" />
         </LinearLayout>
@@ -62,7 +95,10 @@
         android:layout_below="@+id/nav_cam"
         android:paddingTop="8dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -70,6 +106,7 @@
             android:orientation="vertical" >
 
             <android.support.v7.widget.CardView
+                android:id="@+id/card_introduccion_campeche"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:cardCornerRadius="13dp"
@@ -94,11 +131,11 @@
                             android:text="@string/campeche" />
 
                         <ImageView
-                            android:id="@+id/imageView2"
+                            android:id="@+id/img_info_cam1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:padding="5dp"
-                            app:srcCompat="@drawable/campeche"/>
+                            android:padding="15dp"
+                            app:srcCompat="@drawable/campeche" />
 
                         <TextView
                             android:id="@+id/txt_historia1"
@@ -106,24 +143,124 @@
                             android:layout_height="wrap_content"
                             android:text="@string/historia1_campeche"
                             android:padding="15dp"/>
-                        
+
                         <ImageView
+                            android:id="@+id/img_info_cam2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/muro"/>
-                        
+                            android:padding="15dp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/muro" />
+
                         <TextView
-                            android:id="@+id/txt_historia2"
+                            android:id="@+id/txt_historia2_cam"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:padding="15dp"
                             android:text="@string/historia2_campeche"
-                            android:padding="15dp"/>
+                            android:visibility="gone" />
+
                         <TextView
-                            android:id="@+id/txt_historia3"
+                            android:id="@+id/txt_historia3_cam"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:padding="15dp"
                             android:text="@string/historia3_campeche"
-                            android:padding="15dp"/>
+                            android:visibility="gone" />
+
+                        <ToggleButton
+                            android:id="@+id/tg_btn_more_info_cam"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="right"
+                            android:background="@color/cardview_shadow_end_color"
+                            android:backgroundTint="@color/cardview_light_background"
+                            android:onClick="OnToggleClick_info"
+                            android:textColor="@color/leer_mas"
+                            android:textOff="@string/btn_more"
+                            android:textOn="@string/btn_less" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_historia_campeche"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="13dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_historia_campeche1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/history_btn" />
+
+                        <ImageView
+                            android:id="@+id/image_historia_campeche1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            app:srcCompat="@drawable/camp_his"/>
+
+                        <TextView
+                            android:id="@+id/txt_historia_campeche"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/historia4_campeche" />
+
+
+
+                        <TextView
+                            android:id="@+id/txt_historia_campeche4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/historia5_campeche"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/image_historia_campeche2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/muralla_campeche" />
+
+                        <TextView
+                            android:id="@+id/txt_historia_campeche3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/historia6_campeche"
+                            android:visibility="gone" />
+
+                        <ToggleButton
+                            android:id="@+id/tg_btn_more_historia_cam"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="right"
+                            android:background="@color/cardview_shadow_end_color"
+                            android:backgroundTint="@color/cardview_light_background"
+                            android:onClick="OnToggleClick_histora"
+                            android:textColor="@color/leer_mas"
+                            android:textOff="@string/btn_more"
+                            android:textOn="@string/btn_less" />
 
                     </LinearLayout>
                 </RelativeLayout>
