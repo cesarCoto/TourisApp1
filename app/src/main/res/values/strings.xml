@@ -13,7 +13,7 @@
     <string name="hospedaje">Lodging</string>
     <string name="descubir">Discover</string>
     <string name="action_more">More</string>
-    <string name="action_comentarios">recommendations</string>
+    <string name="action_comentarios">Recommendations</string>
     <string name="title_activity_discover">DiscoverActivity</string>
     <string name="escula">CETis #82</string>
     <string name="Log_name">TourisApp logo</string>
@@ -32,7 +32,7 @@
     <string name="btn_read_more">Read more</string>
     <string name="btn_gastronomy">Gastronomy</string>
     <string name="btn_instructions">Instructions</string>
-    <string name="btn_hotels">Hotels</string>
+    <string name="btn_hotels">Ecotourism Hotels</string>
     <string name="btn_weather">Weather</string>
     <string name="tv_welcome">Welcome</string>
     <string name="btn_no_ver">I do not want to see this</string>
@@ -44,7 +44,7 @@
     <string name="btn_show_all">Show all</string>
 
     <!--Welcome-->
-    <string name="introduccion_a_la_app">Welcome to TOURISAPP this application was developed by the student team InovaSix students of CETis 82. This application is still in development so we hope it is to your liking.</string>
+    <string name="introduccion_a_la_app">Welcome to TOURISAPP this application was developed by InovaSix. This application is still in development so we hope it is to your liking.</string>
     <string name="caracteriscas">Characteristics</string>
     <string name="caracteriscas_1">With TourisApp you will have access to free tourist areas and recreational areas, hotel areas, restaurants, shopping areas, cultural areas (churches, museums, historical centers).</string>
 
@@ -65,6 +65,13 @@
     <string name="go_btn">Go</string>
     <string name="marganzo_res">Marganzo</string>
     <string name="marganzo_res_info">It is one of the most famous and most prestigious restaurants in Campeche. In this place you will be able to taste all the specialties of the traditional kitchen, mainly fish and seafood. To this is added the festive atmosphere of music and an excellent location in the heart of the Historic Center of the Campechana capital. Marganzo has achieved a harmonious communion between the exotic pre-Hispanic dishes and the refined international cuisine.</string>
+    <string name="all_rights_reserved">All rights reserved</string>
+    <string name="pixabay">Pixabay</string>
+    <string name="photos">Photos:</string>
+    <string name="makerobot">MakeRobot</string>
+    <string name="innovasix">InnovaSix</string>
+    <string name="developers">Developers</string>
+    <string name="version_1_0">Version 1.0</string>
 
 
     <!--Carme-->

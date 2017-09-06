@@ -30,7 +30,7 @@
     <string name="discover_cenote">Cenote San Miguel Colorado</string>
     <string name="btn_buscar">Buscar</string>
     <string name="btn_read_more">Leer mas</string>
-    <string name="btn_hotels">Hoteles</string>
+    <string name="btn_hotels">Hoteles ecoturisticos</string>
     <string name="btn_weather">Clima</string>
     <string name="tv_welcome">Bienvenido</string>
     <string name="btn_no_ver">No quiero ver esto</string>
@@ -42,7 +42,7 @@
     <string name="btn_show_all">Mostrar todo</string>
 
     <!--Welcome-->
-    <string name="introduccion_a_la_app">Bienvenidos a TOURISAPP esta aplicación fue desarrollada por el equipo de estudiantes InovaSix estudiantes del CETis 82. Esta aplicación aun esta en desarrollo así que  esperamos que sea de tu agrado.</string>
+    <string name="introduccion_a_la_app">Bienvenidos a TOURISAPP esta aplicación fue desarrollada por InovaSix. Esta aplicación aun esta en desarrollo así que  esperamos que sea de tu agrado.</string>
     <string name="caracteriscas_1">Con TourisApp tendrás acceso De manera gratuita a zonas turísticas y con fines recreativos, zonas hoteleras, restaurantes, zonas de comercio, zonas culturales (iglesias, museos, centros históricos).</string>
 
     <!--ciudades-->
@@ -66,6 +66,13 @@
     <string name="la_casa_de_los_murmullos_reseña">"Este lugar es una casona del siglo XVII que se transforma en un lujoso restaurante privado al que solo puedes acudir con una reservación. Está ubicada en uno de los barrios antiguos de Campeche y es la residencia particular del chef francés Patrick Cros. Desde hace nueve años, cuando el chef llegó a México, se enamoró de Campeche y de la propiedad. Aquí se sirven algunos platillos franceses fusionados con la inspiración mexicana y los ingredientes locales, y también podrás encontrar una reinterpretación muy original de la comida campechana. "</string>
     <string name="marganzo_res">Marganzo</string>
     <string name="marganzo_res_info">Es uno de los restaurantes más famosos y con mayor prestigio en Campeche. En este lugar podrás probar todas las especialidades de la cocina tradicional campechana, principalmente pescados y mariscos. A esto se suma el ambiente festivo de música y una excelente ubicación en el corazón del Centro Histórico de la capital campechana. Marganzo ha logrado una armoniosa comunión entre los exóticos platillos prehispánicos y la refinada cocina internacional.</string>
+    <string name="all_rights_reserved">Todos los derechos reservados</string>
+    <string name="developers">Desarroladores</string>
+    <string name="innovasix">InnovaSix</string>
+    <string name="makerobot">MakeRobot</string>
+    <string name="photos">Fotos</string>
+    <string name="pixabay">Pixabay</string>
+    <string name="version_1_0">Version 1.0</string>
 
 
     <!--Carme-->

@@ -41,7 +41,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="10dp"
-                            android:text="TourisApp"
+                            android:text="@string/app_name"
                             android:textAlignment="center"
                             android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -55,7 +55,7 @@
                             android:id="@+id/textView5"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Version 1.0"
+                            android:text="@string/version_1_0"
                             android:textAlignment="center" />
 
                         <TextView
@@ -63,7 +63,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="10dp"
-                            android:text="Developers"
+                            android:text="@string/developers"
                             android:textAlignment="center"
                             android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -71,7 +71,7 @@
                             android:id="@+id/textView7"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="InnovaSix"
+                            android:text="@string/innovasix"
                             android:textAlignment="center" />
 
                         <ImageView
@@ -92,14 +92,31 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:visibility="gone"
-                            app:srcCompat="@drawable/logito" />
+                            app:srcCompat="@drawable/logito"
+                            android:contentDescription="@string/makerobot" />
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/logito"
+                            android:contentDescription="@string/makerobot" />
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/logito"
+                            android:contentDescription="@string/makerobot" />
 
                         <TextView
                             android:id="@+id/textView8"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="10dp"
-                            android:text="Photos:"
+                            android:text="@string/photos"
                             android:textAlignment="center"
                             android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -107,7 +124,7 @@
                             android:id="@+id/textView9"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Pixabay"
+                            android:text="@string/pixabay"
                             android:textAlignment="center" />
 
                         <TextView
@@ -115,7 +132,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="15dp"
-                            android:text="All rights reserved "
+                            android:text="@string/all_rights_reserved"
                             android:textAlignment="center"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                     </LinearLayout>
