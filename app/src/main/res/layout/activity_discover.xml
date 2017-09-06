@@ -145,7 +145,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="2dp"
-                            android:text="La ciudad de Campeche es un mágico segmento de historia en sí misma. En sus hermosas calles y callejones se puede sentir aún la presencia de los conquistadores españoles, de los invasores piratas y de las luchas civiles del siglo XIX."
+                            android:text="@string/cdcarmen"
                             android:textSize="12sp" />
 
                         <Button
@@ -201,7 +201,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="2dp"
-                            android:text="La ciudad de Campeche es un mágico segmento de historia en sí misma. En sus hermosas calles y callejones se puede sentir aún la presencia de los conquistadores españoles, de los invasores piratas y de las luchas civiles del siglo XIX."
+                            android:text="@string/calakmul"
                             android:textSize="12sp" />
 
                         <Button
